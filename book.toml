@@ -1,0 +1,28 @@
+[book]
+title = "Yew 中文文档"
+authors = ["zzy"]
+language = "zh"
+description = "Rust / Wasm 框架, Yew 开发指南, Yew 项目实战, Yew 中文文档"
+src = "src"
+multilingual = true
+
+[output.html]
+theme = "theme"
+# default-theme = "rust"
+git-repository-url = "https://github.com/zzy/yew-zh-cn"
+curly-quotes = true
+mathjax-support = true
+
+[output.html.playpen]
+editable = true
+copy-js = true
+
+[output.html.search]
+limit-results = 20
+use-boolean-and = true
+boost-title = 2
+boost-hierarchy = 2
+boost-paragraph = 1
+expand = true
+heading-split-level = 3
+copy-js = true
