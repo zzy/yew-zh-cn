@@ -10,6 +10,7 @@ multilingual = true
 theme = "theme"
 # default-theme = "rust"
 git-repository-url = "https://github.com/zzy/yew-zh-cn"
+edit-url-template = "https://github.com/zzy/yew-zh-cn/edit/master/{path}"
 curly-quotes = true
 mathjax-support = true
 
