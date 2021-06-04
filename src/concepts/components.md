@@ -1,7 +1,3 @@
----
-description: 组件及其生命周期钩子
----
-
 # 组件（Components）
 
 ## 组件是什么？

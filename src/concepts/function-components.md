@@ -1,8 +1,4 @@
----
-title: "Function Components"
-sidebar_label: Introduction
-description: "Introduction to function components "
----
+## Function Components
 
 :::warning
 We're still working on function components and Hooks. They're not quite ready to be used yet.

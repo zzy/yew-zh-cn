@@ -1,7 +1,3 @@
----
-title: "Children"
----
-
 ## General usage
 
 _Most of the time,_ when allowing a component to have children, you don't care 

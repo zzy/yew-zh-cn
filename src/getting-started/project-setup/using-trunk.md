@@ -1,7 +1,3 @@
----
-title: "Using trunk"
----
-
 ## Install
 
 ```bash

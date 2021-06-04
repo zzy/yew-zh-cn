@@ -1,8 +1,4 @@
----
-title: "Contexts"
-sidebar_label: Contexts
-description: "Using contexts to pass data within application"
----
+## Contexts
 
 Generally data is passed down the component tree using props but that becomes tedious for values such as 
 user preferences, authentication information etc. Consider the following example which passes down the 

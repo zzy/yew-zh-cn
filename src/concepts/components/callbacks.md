@@ -1,7 +1,3 @@
----
-description: ComponentLink 和 Callbacks.
----
-
 # 回调（Callbacks）
 
 组件“link”是一种机制，通过该机制，组件可以注册回调并自行更新。

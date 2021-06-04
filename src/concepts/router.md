@@ -1,7 +1,3 @@
----
-description: Yew 的官方 Router
----
-
 # Router
 
 [https://crates.io/crates/yew-router](https://crates.io/crates/yew-router)

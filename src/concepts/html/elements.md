@@ -1,7 +1,3 @@
----
-description: HTML 和 SVG 元素均受支持
----
-
 # 元素
 
 ## 标签结构

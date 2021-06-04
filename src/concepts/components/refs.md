@@ -1,7 +1,4 @@
----
-title: Refs
-description: 超出界限的 DOM 访问
----
+## Refs
 
 `ref` 关键词可被用在任何 HTML 元素或组件内部以获得该项所附加到的 DOM 元素。这可被用于在 `view` 生命周期方法之外来对 DOM 进行更改。
 

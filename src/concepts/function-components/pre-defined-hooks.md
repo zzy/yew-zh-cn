@@ -1,8 +1,3 @@
----
-title: "Pre-defined Hooks"
-description: "The pre-defined Hooks that Yew comes with "
----
-
 ## `use_state`
 
 `use_state` is used to manage state in a function component.

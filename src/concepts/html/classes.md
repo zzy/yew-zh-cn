@@ -1,8 +1,3 @@
----
-title: "Classes"
-description: "A handy macro to handle classes"
----
-
 ## Classes
 
 The struct `Classes` can be used to deal with HTML classes.

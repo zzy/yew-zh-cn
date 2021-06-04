@@ -1,9 +1,3 @@
----
-title: "Wasm Build Tools"
-description: "Information about build tools"
----
-
-
 ## **Wasm Build Tools**
 
 Extra tooling is needed to facilitate the interop between WebAssembly and JavaScript. Additionally,

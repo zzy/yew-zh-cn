@@ -1,7 +1,4 @@
----
-title: "#[function_component]"
-description: "The #[function_component] attribute"
----
+## #[function_component]
 
 `#[function_component(_)]` turns a normal Rust function into a function component.
 Functions with the attribute have to return `Html` and may take a single parameter for the type of props the component should accept.

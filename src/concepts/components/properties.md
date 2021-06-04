@@ -1,7 +1,3 @@
----
-description: 父组件到子组件的通信
----
-
 # 属性（Properties）
 
 如“组件（Components）”页面所述，Properties 用于父级到子组件的通信。

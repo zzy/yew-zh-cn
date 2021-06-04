@@ -1,7 +1,3 @@
----
-title: "Tips for developing Yew applications"
----
-
 :::important contribute
 This document only contains information for adding supporting in Jetbrains IDEs and VS Code.
 Feel free to contribute to add instructions for your editor of choice. 

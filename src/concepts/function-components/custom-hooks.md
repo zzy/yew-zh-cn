@@ -1,8 +1,3 @@
----
-title: "Custom Hooks"
-description: "Defining your own Hooks "
----
-
 ## Defining custom Hooks
 
 Component's stateful logic can be extracted into usable function by creating custom Hooks. 
