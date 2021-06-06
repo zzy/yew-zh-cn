@@ -23,7 +23,7 @@ html!{
 
 如果组件的 `Properties` 中有 `children` 字段，则可以被传递子组件。
 
-``` rust
+```rust
 html! {
     <Container>
         <h4>{ "Hi" }</h4>
@@ -32,7 +32,7 @@ html! {
 }
 ```
 
-``` rust
+```rust
 pub struct Container(Props);
 
 #[derive(Properties)]
@@ -55,11 +55,15 @@ impl Component for Container {
 }
 ```
 
+:::note
+要派生`Properties`的类型也必须实现`Clone` 。这同样可以通过使用`#[derive(Properties, Clone)]`或手动为您的类型实现`Clone` 
+:::
+
 ## 拥有 Props 的嵌套子组件
 
 如果包含组件标注了 children 的类型，则可以访问和更改嵌套组件的属性。在下面的示例中，`List` 组件可以包含 `ListItem` 组件。有关此模式的真实示例，请查看 `yew-router` 的源码。有关更高级的示例，请在 yew 主仓库中查看 `nested-list` 示例代码。
 
-``` rust
+```rust
 html! {
     <List>
         <ListItem value="a" />
@@ -69,7 +73,7 @@ html! {
 }
 ```
 
-``` rust
+```rust
 pub struct List(Props);
 
 #[derive(Properties)]

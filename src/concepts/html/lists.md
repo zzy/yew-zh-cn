@@ -2,10 +2,12 @@
 
 ## Fragments
 
-`html!` 宏总是要求一个单一的根节点。为了绕开这个限制，把内容包裹在一个空标签内是有效的：
+`html!` 宏总是要求一个单一的根节点。为了绕开这个限制，可以把内容包裹在一个空标签内：
 
 <!--DOCUSAURUS_CODE_TABS-->
-<!--有效-->
+
+<!--Valid-->
+
 ```rust
 html! {
     <>
@@ -15,7 +17,8 @@ html! {
 }
 ```
 
-<!--无效-->
+<!--Invalid-->
+
 ```rust
 /* 错误：只允许一个 html 根元素 */
 
@@ -24,6 +27,7 @@ html! {
     <p></p>
 }
 ```
+
 <!--END_DOCUSAURUS_CODE_TABS-->
 
 ## 迭代器
@@ -31,7 +35,9 @@ html! {
 Yew 支持两种从迭代器构建 html 的语法：
 
 <!--DOCUSAURUS_CODE_TABS-->
-<!--语法类型 1-->
+
+<!--Syntax Type 1-->
+
 ```rust
 html! {
     <ul class="item-list">
@@ -40,7 +46,8 @@ html! {
 }
 ```
 
-<!--语法类型 2-->
+<!--Syntax Type 2-->
+
 ```rust
 html! {
     <ul class="item-list">
@@ -48,5 +55,5 @@ html! {
     </ul>
 }
 ```
-<!--END_DOCUSAURUS_CODE_TABS-->
 
+<!--END_DOCUSAURUS_CODE_TABS-->
